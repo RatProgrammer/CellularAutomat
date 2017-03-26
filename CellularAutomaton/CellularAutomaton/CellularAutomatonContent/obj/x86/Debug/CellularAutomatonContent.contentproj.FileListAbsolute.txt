@@ -1,0 +1,1 @@
+c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomatonContent\obj\x86\Debug\CellularAutomatonContent.contentprojResolveAssemblyReference.cache
