@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Content\Font.xnb</Output>
+      <Output>C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Content\Font.xnb</Output>
       <Time>2017-03-19T20:51:18.3848989+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -17,10 +17,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomatonContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomaton\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomatonContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

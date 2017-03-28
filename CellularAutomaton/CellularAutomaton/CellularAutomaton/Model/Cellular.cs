@@ -26,6 +26,11 @@ namespace CellularAutomaton
                 spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.OrangeRed);
                 X = false;
             }
+            else
+            {
+                spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.Red);
+            }
+
             if (X)
             {
                 spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.Green);

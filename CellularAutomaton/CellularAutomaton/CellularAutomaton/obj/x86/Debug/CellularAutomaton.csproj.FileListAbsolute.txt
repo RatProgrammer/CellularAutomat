@@ -15,3 +15,22 @@ c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\Cellu
 c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.exe
 c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.pdb
 c:\users\aleksanra\documents\visual studio 2015\Projects\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Content\Font.xnb
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Content\Font.xnb
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\CellularAutomaton.exe
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\CellularAutomaton.pdb
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.csprojResolveAssemblyReference.cache
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.exe
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.pdb
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.Menu.resources
+C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.csproj.GenerateResource.Cache

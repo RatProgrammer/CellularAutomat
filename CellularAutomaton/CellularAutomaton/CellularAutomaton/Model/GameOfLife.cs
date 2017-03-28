@@ -1,8 +1,11 @@
 using System;
+using System.Windows.Forms;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using ButtonState = Microsoft.Xna.Framework.Input.ButtonState;
+using Keys = Microsoft.Xna.Framework.Input.Keys;
 
 namespace CellularAutomaton
 {
@@ -25,8 +28,11 @@ namespace CellularAutomaton
         private KeyboardState _keyboardState;
         private KeyboardState _lastKeyboardState;
         private Grid _grid;
+        public Menu Menu { get; set; }
         public GameOfLife()
         {
+            //Menu = new Menu();
+            //Application.Run(Menu);
             _graphicsDeviceManager = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 
