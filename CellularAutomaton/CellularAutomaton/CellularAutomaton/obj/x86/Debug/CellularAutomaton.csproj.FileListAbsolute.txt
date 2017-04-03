@@ -32,5 +32,3 @@ C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton
 C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.exe
 C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.pdb
-C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.Menu.resources
-C:\Users\Aleksanra\Documents\CellularAutomat\CellularAutomaton\CellularAutomaton\CellularAutomaton\obj\x86\Debug\CellularAutomaton.csproj.GenerateResource.Cache

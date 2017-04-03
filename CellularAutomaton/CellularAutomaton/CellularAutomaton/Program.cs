@@ -1,3 +1,5 @@
+using CellularAutomaton.Model;
+
 namespace CellularAutomaton
 {
 #if WINDOWS || XBOX

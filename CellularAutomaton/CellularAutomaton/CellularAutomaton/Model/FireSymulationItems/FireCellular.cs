@@ -2,19 +2,19 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace CellularAutomaton.Model
+namespace CellularAutomaton.Model.FireSymulationItems
 {
-    class Cellular
+    class FireCellular
     {
         public Point CellularPosition { get; set; }
         public Rectangle Bounds { get; set; }
         public bool IsCellularAlive { get; set; }
         public bool X { get; set; }
 
-        public Cellular(Point position)
+        public FireCellular(Point position)
         {
             CellularPosition = position;
-            Bounds = new Rectangle(CellularPosition.X * GameOfLife.CellularSize, CellularPosition.Y*GameOfLife.CellularSize, GameOfLife.CellularSize, GameOfLife.CellularSize);
+            Bounds = new Rectangle(CellularPosition.X * FireSymulationGame.CellularSize, CellularPosition.Y*FireSymulationGame.CellularSize, FireSymulationGame.CellularSize, FireSymulationGame.CellularSize);
             IsCellularAlive = false;
             X = true;
         }
@@ -23,17 +23,17 @@ namespace CellularAutomaton.Model
         {
             if (IsCellularAlive)
             {
-                spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.OrangeRed);
+                spriteBatch.Draw(FireSymulationGame.Pixel, Bounds, Color.OrangeRed);
                 X = false;
             }
             else
             {
-                spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.Red);
+                spriteBatch.Draw(FireSymulationGame.Pixel, Bounds, Color.Red);
             }
 
             if (X)
             {
-                spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.Green);
+                spriteBatch.Draw(FireSymulationGame.Pixel, Bounds, Color.Green);
             }
         }
 

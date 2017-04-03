@@ -1,17 +1,18 @@
 using System;
 using System.Windows.Forms;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using ButtonState = Microsoft.Xna.Framework.Input.ButtonState;
 using Keys = Microsoft.Xna.Framework.Input.Keys;
 
-namespace CellularAutomaton.Model
+namespace CellularAutomaton
 {
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class GameOfLife : Microsoft.Xna.Framework.Game
+    public class FireSymulationGame : Microsoft.Xna.Framework.Game
     {
         public const int Fps = 60;
         public const int Ups = 20;
@@ -28,10 +29,9 @@ namespace CellularAutomaton.Model
         private KeyboardState _lastKeyboardState;
         private Grid _grid;
         public Menu Menu { get; set; }
-        public GameOfLife()
+
+        public FireSymulationGame()
         {
-            //Menu = new Menu();
-            //Application.Run(Menu);
             _graphicsDeviceManager = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 

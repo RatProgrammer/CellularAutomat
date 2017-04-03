@@ -2,53 +2,44 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace CellularAutomaton.Model
+namespace CellularAutomaton.Model.GameOfLiveSymulationItems
 {
-    class Cellular
+    class GameOfLifeCellular
     {
         public Point CellularPosition { get; set; }
         public Rectangle Bounds { get; set; }
         public bool IsCellularAlive { get; set; }
-        public bool X { get; set; }
 
-        public Cellular(Point position)
+        public GameOfLifeCellular(Point position)
         {
             CellularPosition = position;
-            Bounds = new Rectangle(CellularPosition.X * GameOfLife.CellularSize, CellularPosition.Y*GameOfLife.CellularSize, GameOfLife.CellularSize, GameOfLife.CellularSize);
+            Bounds = new Rectangle(CellularPosition.X * FireSymulationGame.CellularSize, CellularPosition.Y * FireSymulationGame.CellularSize, FireSymulationGame.CellularSize, FireSymulationGame.CellularSize);
             IsCellularAlive = false;
-            X = true;
         }
 
         public void DrawCellular(SpriteBatch spriteBatch)
         {
             if (IsCellularAlive)
             {
-                spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.OrangeRed);
-                X = false;
+                spriteBatch.Draw(FireSymulationGame.Pixel, Bounds, Color.Black);
             }
             else
             {
-                spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.Red);
-            }
-
-            if (X)
-            {
-                spriteBatch.Draw(GameOfLife.Pixel, Bounds, Color.Green);
+                spriteBatch.Draw(FireSymulationGame.Pixel, Bounds, Color.White);
             }
         }
 
         public void UpdateState(MouseState mouseState)
         {
-            if(Bounds.Contains(new Point(mouseState.X, mouseState.Y)))
+            if (Bounds.Contains(new Point(mouseState.X, mouseState.Y)))
             {
                 if (mouseState.LeftButton == ButtonState.Pressed)
                 {
                     IsCellularAlive = true;
                 }
-                else if(mouseState.RightButton==ButtonState.Pressed)
+                else if (mouseState.RightButton == ButtonState.Pressed)
                 {
                     IsCellularAlive = false;
-                    X = true;
                 }
             }
         }
